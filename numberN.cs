@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace SchoolProgramm
 {
-    internal class Program
+    internal class numberN
     {
         static void Main(string[] args)
         {
             Console.Write("Введите натуральное число: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()); // 1281
 
             // Находим наименьшую цифру в числе n
             int minDigit = 9;
             int temp = n;
+
             while (temp > 0)
             {
                 int digit = temp % 10;

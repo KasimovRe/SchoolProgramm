@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolProgramm", "SchoolProgramm.csproj", "{0E46B6BB-40DC-477B-BE1B-55BF790AF216}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{406CCE2F-601A-494A-8892-D1C4C74CE8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MYSELF", "MYSELF", "{C490B9CA-1325-4CA0-97C8-A88489732283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meN1", "..\meN1\meN1.csproj", "{11522E51-F89B-4F4E-875A-241202CFE213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{0E46B6BB-40DC-477B-BE1B-55BF790AF216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E46B6BB-40DC-477B-BE1B-55BF790AF216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E46B6BB-40DC-477B-BE1B-55BF790AF216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11522E51-F89B-4F4E-875A-241202CFE213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11522E51-F89B-4F4E-875A-241202CFE213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11522E51-F89B-4F4E-875A-241202CFE213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11522E51-F89B-4F4E-875A-241202CFE213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E46B6BB-40DC-477B-BE1B-55BF790AF216} = {406CCE2F-601A-494A-8892-D1C4C74CE8AB}
+		{11522E51-F89B-4F4E-875A-241202CFE213} = {C490B9CA-1325-4CA0-97C8-A88489732283}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C3194CA-95C8-4202-8E69-D605249744FE}
